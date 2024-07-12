@@ -1,0 +1,14 @@
+.lesson08-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 30px;
+  padding: 40px;
+  background: rgb(214, 144, 209);
+}
+
+/* .lesson08-component:hover{
+  background: rgb(219, 198, 218);
+} */
