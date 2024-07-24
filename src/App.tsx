@@ -7,6 +7,11 @@ import Layout from 'components/Layout/Layout';
 import Home from 'pages/Home/Home';
 import Users from 'pages/Users/Users';
 import About from 'pages/About/About';
+import Clients from 'pages/Clients/Clients';
+import Facebook from 'pages/Clients/components/Facebook/Facebook';
+import Google from 'pages/Clients/components/Google/Google';
+import Amazon from 'pages/Clients/components/Amazon/Amazon';
+import Lesson16 from 'lessons/Lesson16/Lesson16';
 
 // Consultations import
 // import Consultation_04 from './consultations/Consultation_04/Consultation_04';
@@ -50,14 +55,20 @@ function App() {
       {/* <Homework12/> */}
       {/* <Lesson14 /> */}
       {/* <Homework14/> */}
-      {/* Lesson15 example with pages */}
-      <Layout>
+      {/* Lesson15 and Homework15 example with pages */}
+      {/* <Layout>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/users' element={<Users />} />
           <Route path='/about' element={<About />} />
+          <Route path='/clients' element={<Clients />} />
+          <Route path='/clients/amazon' element={<Amazon />} />
+          <Route path='/clients/facebook' element={<Facebook />} />
+          <Route path='/clients/google' element={<Google />} />
+          <Route path='*' element={'Page not found'} />
         </Routes>
-      </Layout>
+      </Layout> */}
+      <Lesson16 />
     </BrowserRouter>
   );
 }
