@@ -2,6 +2,7 @@ import { useContext } from 'react'
 
 import { ContentComponent, DataItem } from "./styles"
 import { MainCardContext } from '../MainCard/MainCard'
+import NameTitle from '../NameTitle/NameTitle'
 
 function Content() {
   //3. Вызываем хук useContext, в который мы передаём контекст из которого нужно получить данные. 
@@ -10,6 +11,7 @@ function Content() {
 
   return (
     <ContentComponent>
+      <NameTitle />
       <DataItem>First Name: {contentData.firstName}</DataItem>
       <DataItem>Last Name: {contentData.lastName}</DataItem>
       <DataItem>Age: {contentData.age}</DataItem>

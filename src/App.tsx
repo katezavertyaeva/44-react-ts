@@ -11,10 +11,10 @@ import Clients from 'pages/Clients/Clients';
 import Facebook from 'pages/Clients/components/Facebook/Facebook';
 import Google from 'pages/Clients/components/Google/Google';
 import Amazon from 'pages/Clients/components/Amazon/Amazon';
-import Lesson16 from 'lessons/Lesson16/Lesson16';
 
 // Consultations import
 // import Consultation_04 from './consultations/Consultation_04/Consultation_04';
+import Consultation_07 from 'consultations/Consultation_07/Consultation_07';
 
 //Lessons import 
 // import Lesson06 from './lessons/Lesson06/Lesson06';
@@ -25,6 +25,8 @@ import Lesson16 from 'lessons/Lesson16/Lesson16';
 // import Lesson11 from './lessons/Lesson11/Lesson11';
 // import Lesson12 from './lessons/Lesson12/Lesson12';
 // import Lesson14 from 'lessons/Lesson14/Lesson14';
+import Lesson16 from 'lessons/Lesson16/Lesson16';
+import Weather from 'pages/Weather/Weather';
 
 //Homeworks import 
 // import Homework07 from './homeworks/Homework07/Homework07';
@@ -68,7 +70,9 @@ function App() {
           <Route path='*' element={'Page not found'} />
         </Routes>
       </Layout> */}
-      <Lesson16 />
+      {/* <Lesson16 /> */}
+      {/* <Consultation_07/> */}
+      <Weather />
     </BrowserRouter>
   );
 }
